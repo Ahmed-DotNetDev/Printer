@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgba(0, 0, 0, 0.671);
+    font-family: 'Poppins';
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 96vh;
+    height: 100vh;
+    margin-left: 17%;
+    color: white;
+    padding-left: 50px;
+    font-size: 1.2rem;
+
+}
+
+.Main-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    line-height: 75px;
+    color: azure;
+    padding-right: 30px;
+}
+
+.Description-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 30px;
+    color: bisque;
+    font-size: 25px;
+    line-height: 60px;
+}
+
+.More-Description {
+    letter-spacing: 1.1px;
+    line-height: 36px;
+    font-size: 1.4rem;
+}
+
+.Main-title h1:hover {
+    cursor: pointer;
+    color: rgba(240, 255, 255, 0.658);
+    transition: .4s;
+}
+
+.ico {
+    position: absolute;
+    bottom: 0;
+    margin-left: 700px;
+    padding-bottom: 30px;
+}
+
+.page span {
+    color: aqua;
+    font-size: 2.6rem;
+    cursor: pointer;
+}
+
+span:hover {
+    color: rgba(0, 255, 255, 0.808);
+    transition: .3s;
+}
